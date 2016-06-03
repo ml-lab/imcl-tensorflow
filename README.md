@@ -8,6 +8,7 @@ or more CPUs or GPUs in a desktop, server, or mobile device without rewriting
 code.  TensorFlow also includes TensorBoard, a data visualization toolkit.
 
 ##This repository helps easy to code up
+If you want to share your code about tensorflow please mail us at(mrlittlezhu@gmail.com)
 
 ## Installation
 *See [Download and Setup](tensorflow/g3doc/get_started/os_setup.md) for instructions on how to install our release binaries or how to build from source.*
