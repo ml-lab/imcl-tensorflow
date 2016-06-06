@@ -2,36 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b975ba-ff41-4a13-b92f-1922eacba344" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/cluttered_mnist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/.idea/spatial-transformer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/transformer/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/cluttered_mnist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/data/cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/data/mnist_sequence1_sample_5distortions5x5.npz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/example.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/spatial_transformer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spatial-transformer/tf_utils.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/.idea/.name" afterPath="$PROJECT_DIR$/models/transformer/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/.idea/encodings.xml" afterPath="$PROJECT_DIR$/models/transformer/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/.idea/misc.xml" afterPath="$PROJECT_DIR$/models/transformer/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/.idea/modules.xml" afterPath="$PROJECT_DIR$/models/transformer/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/.idea/spatial-transformer.iml" afterPath="$PROJECT_DIR$/models/transformer/.idea/spatial-transformer.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/models/transformer/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/__init__.py" afterPath="$PROJECT_DIR$/models/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial-transformer/cluttered_mnist.png" afterPath="$PROJECT_DIR$/models/transformer/cluttered_mnist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/Utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/inception/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/inception/inception/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/inception/inception/slim/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/namignizer/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/syntaxnet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/cluttered_mnist.py" afterPath="$PROJECT_DIR$/models/transformer/cluttered_mnist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/example.py" afterPath="$PROJECT_DIR$/models/transformer/example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/spatial_transformer.py" afterPath="$PROJECT_DIR$/models/transformer/spatial_transformer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/tf_utils.py" afterPath="$PROJECT_DIR$/models/transformer/tf_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/AdditiveGaussianNoiseAutoencoderRunner.py" afterPath="$PROJECT_DIR$/models/autoencoder/AdditiveGaussianNoiseAutoencoderRunner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/AutoencoderRunner.py" afterPath="$PROJECT_DIR$/models/autoencoder/AutoencoderRunner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/MaskingNoiseAutoencoderRunner.py" afterPath="$PROJECT_DIR$/models/autoencoder/MaskingNoiseAutoencoderRunner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/VariationalAutoencoderRunner.py" afterPath="$PROJECT_DIR$/models/autoencoder/VariationalAutoencoderRunner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/Autoencoder.py" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/Autoencoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/DenoisingAutoencoder.py" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/DenoisingAutoencoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/VariationalAutoencoder.py" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/VariationalAutoencoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/flowers_data.py" afterPath="$PROJECT_DIR$/models/inception/inception/flowers_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/flowers_eval.py" afterPath="$PROJECT_DIR$/models/inception/inception/flowers_eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/flowers_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/flowers_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/imagenet_data.py" afterPath="$PROJECT_DIR$/models/inception/inception/imagenet_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/imagenet_distributed_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/imagenet_distributed_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/imagenet_eval.py" afterPath="$PROJECT_DIR$/models/inception/inception/imagenet_eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/imagenet_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/imagenet_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_distributed_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_distributed_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_eval.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_model.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/namignizer/names.py" afterPath="$PROJECT_DIR$/models/namignizer/names.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py" />
     </list>
     <ignored path="imcl-tensorflow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +44,13 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/imcl-tensorflow$flowers_train.coverage" NAME="flowers_train Coverage Results" MODIFIED="1465211412971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/inception/inception" />
     <SUITE FILE_PATH="coverage/imcl-tensorflow$cluttered_mnist__1_.coverage" NAME="cluttered_mnist (1) Coverage Results" MODIFIED="1465199517295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/transformer" />
+    <SUITE FILE_PATH="coverage/imcl-tensorflow$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1465212174113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/inception/inception" />
+    <SUITE FILE_PATH="coverage/imcl-tensorflow$AutoencoderRunner.coverage" NAME="AutoencoderRunner Coverage Results" MODIFIED="1465211062952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/autoencoder" />
+    <SUITE FILE_PATH="coverage/imcl-tensorflow$Nosetests_in_names.coverage" NAME="Nosetests in names Coverage Results" MODIFIED="1465215461173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/namignizer" />
+    <SUITE FILE_PATH="coverage/imcl-tensorflow$AdditiveGaussianNoiseAutoencoderRunner.coverage" NAME="AdditiveGaussianNoiseAutoencoderRunner Coverage Results" MODIFIED="1465210516334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/autoencoder" />
+    <SUITE FILE_PATH="coverage/imcl-tensorflow$flowers_data.coverage" NAME="flowers_data Coverage Results" MODIFIED="1465214992907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/inception/inception" />
     <SUITE FILE_PATH="coverage/imcl-tensorflow$cluttered_mnist.coverage" NAME="cluttered_mnist Coverage Results" MODIFIED="1465198866869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spatial-transformer" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -57,14 +62,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="beam_reader_ops_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding>
+                <element signature="e#713#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluttered_mnist.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/transformer/cluttered_mnist.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parser_ops.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/parser_ops.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="cluttered_mnist.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/transformer/cluttered_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,6 +129,34 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/models/transformer/cluttered_mnist.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/AdditiveGaussianNoiseAutoencoderRunner.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/AutoencoderRunner.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/MaskingNoiseAutoencoderRunner.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/VariationalAutoencoderRunner.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/autoencoder_models/Autoencoder.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/autoencoder_models/DenoisingAutoencoder.py" />
+        <option value="$PROJECT_DIR$/models/autoencoder/autoencoder_models/VariationalAutoencoder.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/__init__.py" />
+        <option value="$PROJECT_DIR$/models/inception/__init__.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/flowers_data.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/flowers_eval.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/flowers_train.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/imagenet_data.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/imagenet_distributed_train.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/imagenet_eval.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/imagenet_train.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/inception_distributed_train.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/inception_eval.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/slim/__init__.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/inception_model.py" />
+        <option value="$PROJECT_DIR$/models/inception/inception/inception_train.py" />
+        <option value="$PROJECT_DIR$/models/namignizer/__init__.py" />
+        <option value="$PROJECT_DIR$/models/namignizer/names.py" />
+        <option value="$PROJECT_DIR$/models/syntaxnet/__init__.py" />
+        <option value="$PROJECT_DIR$/models/syntaxnet/syntaxnet/__init__.py" />
+        <option value="$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/__inti__.py" />
+        <option value="$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/__init__.py" />
+        <option value="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py" />
       </list>
     </option>
   </component>
@@ -124,7 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,33 +205,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imcl-tensorflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imcl-tensorflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imcl-tensorflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imcl-tensorflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,49 +217,109 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/models/transformer" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/inception/inception" />
+      <recent name="$PROJECT_DIR$/models/autoencoder/autoencoder_models" />
       <recent name="$PROJECT_DIR$/models/transformercluttered_mnist.py example.py spatial_transformer.py tf_utils.py" />
       <recent name="$PROJECT_DIR$/models/transformer" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/transformer" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.cluttered_mnist (1)">
-    <configuration default="false" name="cluttered_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Nosetests in names">
+    <configuration default="false" name="flowers_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spatial-transformer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/inception/inception" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="imcl-tensorflow" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spatial-transformer/cluttered_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/inception/inception/flowers_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="cluttered_mnist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="AutoencoderRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/transformer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/autoencoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="imcl-tensorflow" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/transformer/cluttered_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/autoencoder/AutoencoderRunner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/inception/inception" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="imcl-tensorflow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/inception/inception/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="flowers_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/inception/inception" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="imcl-tensorflow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/inception/inception/flowers_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in names" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/namignizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="imcl-tensorflow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/namignizer/names.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -407,14 +515,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.cluttered_mnist" />
-      <item index="1" class="java.lang.String" itemvalue="Python.cluttered_mnist (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.flowers_train" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AutoencoderRunner" />
+      <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="3" class="java.lang.String" itemvalue="Python.flowers_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in names" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.cluttered_mnist (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cluttered_mnist" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in names" />
+        <item index="1" class="java.lang.String" itemvalue="Python.flowers_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="3" class="java.lang.String" itemvalue="Python.flowers_train" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AutoencoderRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -427,6 +541,38 @@
       <updated>1465198124617</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 19m 36s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 21m 38s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 30m 42s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 32m 34s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 33m 20s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 33m 42s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 44m 21s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 44m 39s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 16h 44m 51s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_names - 2016.06.06 at 20h 17m 44s.xml">
+      <configuration name="Nosetests in names" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="30" width="1205" height="737" extended-state="0" />
@@ -446,9 +592,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997006" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -456,19 +602,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/models/inception/inception/imagenet_distributed_train.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/transformer/.idea/.name">
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/autoencoder_models/Autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1111112">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/autoencoder_models/Utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/autoencoder_models/VariationalAutoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/MaskingNoiseAutoencoderRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/__init__.py">
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/Utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/VariationalAutoencoderRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/AutoencoderRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -476,10 +685,377 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/autoencoder_models/DenoisingAutoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/AdditiveGaussianNoiseAutoencoderRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1018#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/flowers_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#737#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/flowers_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/flowers_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#735#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/image_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1676#1714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/imagenet_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/imagenet_distributed_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/imagenet_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/imagenet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/inception_distributed_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/inception_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/slim/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/inception_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#989#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/inception/inception/inception_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding>
+            <element signature="e#760#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/model/ptb/ptb_word_lm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#2154#2192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/model/ptb/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#723#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/model/ptb/reader_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#734#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#629#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/namignizer/names.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="258" column="36" selection-start-line="258" selection-start-column="36" selection-end-line="258" selection-end-column="36" />
+          <folding>
+            <element signature="e#1524#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/neural_gpu/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#747#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/neural_gpu/neural_gpu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#706#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/neural_gpu/neural_gpu_trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#720#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/swivel/analogy.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/swivel/nearest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#688#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/swivel/prep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1606#1622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/swivel/swivel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2008#2023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/swivel/text2bin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1412#1438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/swivel/wordsim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1219#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/syntaxnet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/parser_ops.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#713#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/transformer/cluttered_mnist.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/transformer/cluttered_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

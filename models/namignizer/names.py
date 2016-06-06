@@ -43,8 +43,8 @@ import time
 import tensorflow as tf
 import numpy as np
 
-from model import NamignizerModel
-import data_utils
+from models.namignizer.model import NamignizerModel
+import models.namignizer.data_utils as data_utils
 
 
 class SmallConfig(object):
@@ -254,7 +254,7 @@ def namignator(checkpoint_path, config):
 
 
 if __name__ == "__main__":
-    # train("data/SmallNames.txt", "model/namignizer", SmallConfig)
+    train("data/NationalNames.txt", "model/namignizer", SmallConfig)
 
     # namignize(["mary", "ida", "gazorbazorb", "mmmhmm", "bob"],
     #     tf.train.latest_checkpoint("model"), SmallConfig)

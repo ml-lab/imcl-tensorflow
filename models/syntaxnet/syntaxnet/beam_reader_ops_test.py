@@ -25,8 +25,8 @@ from tensorflow.python.framework import test_util
 from tensorflow.python.platform import googletest
 from tensorflow.python.platform import tf_logging as logging
 
-from syntaxnet import structured_graph_builder
-from syntaxnet.ops import gen_parser_ops
+from models.syntaxnet.syntaxnet import structured_graph_builder
+from models.syntaxnet.syntaxnet.ops import gen_parser_ops
 
 FLAGS = tf.app.flags.FLAGS
 if not hasattr(FLAGS, 'test_srcdir'):

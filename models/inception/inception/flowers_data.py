@@ -18,9 +18,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-
-
-from inception.dataset import Dataset
+from models.inception.inception.dataset import Dataset
 
 
 class FlowersData(Dataset):

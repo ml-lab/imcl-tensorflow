@@ -20,7 +20,7 @@ from __future__ import print_function
 
 
 
-from inception.dataset import Dataset
+from models.inception.inception.dataset import Dataset
 
 
 class ImagenetData(Dataset):

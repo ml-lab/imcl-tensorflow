@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-import autoencoder.Utils
+import Utils
 
 class VariationalAutoencoder(object):
 
@@ -36,8 +36,8 @@ class VariationalAutoencoder(object):
 
     def _initialize_weights(self):
         all_weights = dict()
-        all_weights['w1'] = tf.Variable(autoencoder.Utils.xavier_init(self.n_input, self.n_hidden))
-        all_weights['log_sigma_w1'] = tf.Variable(autoencoder.Utils.xavier_init(self.n_input, self.n_hidden))
+        all_weights['w1'] = tf.Variable(Utils.xavier_init(self.n_input, self.n_hidden))
+        all_weights['log_sigma_w1'] = tf.Variable(Utils.xavier_init(self.n_input, self.n_hidden))
         all_weights['b1'] = tf.Variable(tf.zeros([self.n_hidden], dtype=tf.float32))
         all_weights['log_sigma_b1'] = tf.Variable(tf.zeros([self.n_hidden], dtype=tf.float32))
         all_weights['w2'] = tf.Variable(tf.zeros([self.n_hidden, self.n_input], dtype=tf.float32))
