@@ -254,9 +254,11 @@ def namignator(checkpoint_path, config):
 
 
 if __name__ == "__main__":
-    train("data/NationalNames.txt", "model/namignizer", SmallConfig)
+    data = "./models/namignizer/data/NationalNames.txt"
+    model = "./models/namignnizer"
+    train(data, model, SmallConfig)
 
-    # namignize(["mary", "ida", "gazorbazorb", "mmmhmm", "bob"],
-    #     tf.train.latest_checkpoint("model"), SmallConfig)
+    namignize(["mary", "ida", "gazorbazorb", "mmmhmm", "bob"],
+         tf.train.latest_checkpoint("model"), SmallConfig)
 
-    # namignator(tf.train.latest_checkpoint("model"), SmallConfig)
+    namignator(tf.train.latest_checkpoint("model"), SmallConfig)

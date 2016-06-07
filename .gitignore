@@ -1,2 +1,12 @@
 
 spatial-transformer/data/mnist_sequence3_sample_8distortions_9x9.npz
+
+image/mnist/data/train-images-idx3-ubyte.gz
+
+models/examples/data/t10k-images-idx3-ubyte.gz
+
+models/examples/data/train-images-idx3-ubyte.gz
+
+models/examples/data/t10k-labels-idx1-ubyte.gz
+
+models/examples/data/train-labels-idx1-ubyte.gz
